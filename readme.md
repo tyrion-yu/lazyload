@@ -4,12 +4,11 @@
 
 鉴于点评的活动页和产品页基本都是带jquery和zepto的，所以可以直接用上他们的能力，使得实现更简洁。
 
---> 代码地址（comming soon）
 
 ## Live Demo
 
 pc端：[点评家装案例列表页](http://www.dianping.com/shop/21369201/wedding/product)（目前用的仍是旧的lazyload，近期更新）
-移动端：[点评家装案例列表页（comming soon）]()
+移动端：点评家装案例列表页（comming soon）
 
 ## Usage
 
@@ -104,7 +103,6 @@ LazyLoad.load('.box');
 LazyLoad.load($('.box')); // both ok
 
 LazyLoad.stop();
-LazyLoad.resume();
 ```
 
 ### #load([selector])
